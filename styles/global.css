@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components {
+  .boxArea {
+    @apply flex items-center flex-col m-2 mb-7  rounded-xl cursor-pointer  hover:scale-105 transition transform duration-200 ease-out;
+  }
+  .imgstyle {
+    @apply rounded-md  w-40 object-contain;
+  }
+  .linkstyle {
+    @apply mr-4 px-4 py-2 border rounded-md bg-green-400 hover:bg-green-500 cursor-pointer transition transform duration-200;
+  }
+}
