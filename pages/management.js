@@ -3,7 +3,7 @@ import Staff from "../components/Staff";
 
 function management() {
   return (
-    <section className="bg-gray-100 text-gray-900 absolute min-h-screen min-w-max">
+    <section className="bg-gray-100 text-gray-900 absolute min-h-screen min-w-full">
       <Header />
       <div className="m-10 p-4 flex items-center flex-col max-w-5xl mx-auto">
         <h1 className="text-2xl font-bold border-b-4 border-green-700 ">
